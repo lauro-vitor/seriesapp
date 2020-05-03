@@ -5,6 +5,7 @@ export default class LoginPage extends React.Component {
     return (
       <View>
         <Text>Hello, says Login page</Text>
+        <Text>Bla Bla Bla</Text>
       </View>
     );
   }
