@@ -1,10 +1,2 @@
-import React from 'react';
-import {View, Text} from 'react-native';
-
-export default () => {
-  return (
-    <View>
-      <Text>Hello World</Text>
-    </View>
-  );
-};
+import SeriesApp from './src/SeriesApp';
+export default SeriesApp;

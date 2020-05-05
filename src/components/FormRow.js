@@ -1,3 +1,10 @@
 import React from 'react';
-import {View} from 'react-native';
-export default props => <View>{props.children}</View>;
+import {View, StyleSheet} from 'react-native';
+export default props => <View style={styles.row}>{props.children}</View>;
+const styles = StyleSheet.create({
+  row: {
+    marginTop: 15,
+    marginLeft: 15,
+    marginRight: 15,
+  },
+});
