@@ -1,6 +1,5 @@
 import firebase from '@firebase/app';
 import {Alert} from 'react-native';
-import {getMessageByError} from '../util/getMessageByError';
 
 export const USER_LOGIN_SUCESS = 'USER_LOGIN_SUCESS';
 const userLoginSucess = user => ({

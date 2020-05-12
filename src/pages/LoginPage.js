@@ -5,7 +5,6 @@ import MyButton from '../components/MyButton';
 import ErrorMessage from '../components/ErrorMessage';
 import firebase from '@firebase/app';
 import '@firebase/auth';
-import handlerErrorUser from '../functions/handlerErrorUser';
 import {connect} from 'react-redux';
 import {tryLogin} from '../actions';
 import {getMessageByError} from '../util/getMessageByError';
